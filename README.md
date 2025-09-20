@@ -70,9 +70,10 @@ Example response:
 
 ## Screenshots
   ```markdown
-  ![Postman Test](screenshots/ss_RegisterPostman.png)
-  ![Postman Test](screenshots/ss_TransactionsPostman.png)
-  ![MongoDB Atlas](screenshots/ss_Mongo.png)
+  ![Postman Test](screenshots/ss_registerPostman.png)
+  ![Postman Test](screenshots/ss_transactionsPostman.png)
+  ![MongoDB Atlas](screenshots/ss_mongo.png)
+
 
 
 

@@ -6,7 +6,7 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
 
 ## API Endpoints
 
-  ```markdown
+  
   | Method | Endpoint | Description |
   |--------|---------|-------------|
   | POST   | /api/transactions | Create order + transaction |
@@ -20,9 +20,8 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
 ---
 
 ## Create a .env file (use .env.example as reference):
-
-   ```env
-   MONGO_URI=your_mongodb_atlas_uri
+  
+  MONGO_URI=your_mongodb_atlas_uri
   JWT_SECRET=your_jwt_secret
   PORT=5000
   PG_KEY=edvtest01
@@ -56,5 +55,6 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
   ```markdown
   ![Postman Test](screenshots/ss_postman.png)
   ![MongoDB Atlas](screenshots/ss_mongo.png)
+
 
 

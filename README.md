@@ -24,24 +24,26 @@ Example request for POST `/api/transactions`:
   "studentName": "John Doe",
   "amount": 500
 }
+```
 
 Example response:
+```json
 {
   "success": true,
   "transactionId": "abc123",
   "status": "pending"
 }
-
+```
 ---
 
 ## Create a .env file (use .env.example as reference):
-  
+  ```ini
   MONGO_URI=your_mongodb_atlas_uri
   JWT_SECRET=your_jwt_secret
   PORT=5000
   PG_KEY=edvtest01
   API_KEY=your_api_key
-
+  ```
 ---
 
 ## 🚀 How to Run
@@ -70,6 +72,7 @@ Example response:
   ```markdown
   ![Postman Test](screenshots/ss_postman.png)
   ![MongoDB Atlas](screenshots/ss_mongo.png)
+
 
 
 

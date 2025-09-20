@@ -16,6 +16,21 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
   | PUT    | /api/transactions/:orderId/refund | Refund a transaction |
   | POST   | /api/webhook | Webhook handler (update status) |
 
+Example request for POST `/api/transactions`:
+
+```json
+{
+  "schoolId": "12345",
+  "studentName": "John Doe",
+  "amount": 500
+}
+
+Example response:
+{
+  "success": true,
+  "transactionId": "abc123",
+  "status": "pending"
+}
 
 ---
 
@@ -46,7 +61,7 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
 3. Start the frontend:
    ```bash
    npm run dev
-      or
+   #  or
    node src/server.js
 
 ---
@@ -55,6 +70,7 @@ This is the **backend** for the School Payment project built with **Node.js, Exp
   ```markdown
   ![Postman Test](screenshots/ss_postman.png)
   ![MongoDB Atlas](screenshots/ss_mongo.png)
+
 
 
 
